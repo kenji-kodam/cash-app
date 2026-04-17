@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Meiryo, sans-serif;
+}
+
+/* PC標準 */
+button {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+input {
+  font-size: 14px;
+  padding: 4px 6px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+/* スマホだけ大きく */
+@media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 8px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 6px;
+  }
+
+  table {
+    font-size: 16px;
+  }
+}
